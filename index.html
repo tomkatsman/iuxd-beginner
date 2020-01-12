@@ -1,138 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
+
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ethos</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Sketching and Wireframes</title>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/vendor.css">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
 
-    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
 </head>
 
-<body>
+<body id="top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Logo and responsive toggle -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                	Home
-                </a>
-            </div>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">Sketching</a>
-                    </li>
-                    <li>
-                        <a href="#">Wireframing</a>
-                    </li>
-                </ul>
 
-            </div>
-            <!-- /.navbar-collapse -->
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        <!-- /.container -->
-    </nav>
-
-	<div class="jumbotron feature">
-		<div class="container">
-			<h1>Sketching &amp; Wireframing</h1>
-			<p>Waarom pen en papier onmisbare tools zijn voor een UX designer.</p>
-			<!-- <p><a class="btn btn-default" href="#">Engage Now</a></p> -->
-		</div>
-	</div>
-
-    <!-- Content -->
-    <div class="container">
-
-        <!-- Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Petierunt Uti</h1>
-                <p>Tityre, tu patulae recubans sub tegmine fagi dolor. Nihil hic munitissimus habendi senatus locus, nihil horum? Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Unam incolunt Belgae, aliam Aquitani, tertiam.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Feature Row -->
-        <div class="row">
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="img/sketch.png" alt="">
-                </a>
-                <h3>
-                    <a href="sketching.html">Sketching</a>
-                </h3>
-                <p>Cum ceteris in veneratione tui montes, nascetur mus. Hi omnes lingua, institutis, legibus inter se differunt. Quam diu etiam furor iste tuus nos eludet?</p>
-            </article>
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="img/wireframe.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">Wireframing</a>
-                </h3>
-                <p>Quae vero auctorem tractata ab fiducia dicuntur. Phasellus laoreet lorem vel dolor tempus vehicula. Paullum deliquit, ponderibus modulisque suis ratio utitur. Quis aute iure reprehenderit in voluptate velit esse.</p>
-            </article>
-
-            <!-- <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="holder.js/700x300" alt="">
-                </a>
-                <h3>
-                    <a href="#">Pellentesque Habitant</a>
-                </h3>
-                <p>Qui ipsorum lingua Celtae, nostra Galli appellantur. Non equidem invideo, miror magis posuere velit aliquet. Curabitur blandit tempus ardua ridiculus sed magna. Prima luce, cum quibus mons aliud consensu ab eo.</p>
-            </article> -->
-        </div>
-        <!-- /.row -->
-
     </div>
-    <!-- /.container -->
-	
-	<footer>
-        <div class="small-print">
-        	<div class="container">
-        		<p>Copyright &copy; <a href="tomkatsman.nl">Tom Katsman</a> &amp John Visser | 2019 </p>
-        	</div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
         </div>
-	</footer>
 
-	
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
+        <div class="header-content">
+    
+            <nav class="row header-nav-wrap">
+                <ul class="header-nav">
+                    <li><a class="smoothscroll" href="#hero" title="Intro">Home</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">About</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Services">Services</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Works">Works</a></li>
+                    <li><a href="mailto:#0" title="Contact us">Say Hello</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-	
-	<!-- IE10 viewport bug workaround -->
-	<script src="js/ie10-viewport-bug-workaround.js"></script>
-	
-	<!-- Placeholder Images -->
-	<script src="js/holder.min.js"></script>
-	
+        </div> <!-- end header-content -->
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> 
+
+
+    <!-- hero
+    ================================================== -->
+    <section id="hero" class="s-hero target-section" data-parallax="scroll" data-image-src="images/header-img.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="row hero-content">
+
+            <div class="column large-full">
+
+                <h1>
+                Schetsen in het ontwerp- <br>
+                proces. Hoe, wat, waar en <br>
+                waarom?
+                </h1>
+
+            </div> 
+
+        </div> <!-- end hero-content -->
+
+        <div class="hero-scroll">
+            <a href="#about" class="scroll-link smoothscroll">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 24l-8-9h6v-15h4v15h6z"/></svg>
+            </a>
+        </div> <!-- end hero-scroll -->
+
+    </section> <!-- end s-hero -->
+
+    <section id="services" class="s-services target-section h-dark-bg">
+        
+        <div class="row s-services__content">
+
+            <div class="vert-line"></div>
+
+            <div class="column large-6 s-services__leftcol">
+                <div class="section-intro" data-aos="fade-up">
+                    <h3 class="subhead">Intro</h3>
+
+                    <h1 class="display-1">
+                    Op deze pagina zullen we jou uitleggen waarom schetsen zo belangrijk is
+                    </h1>
+                </div>
+
+                <p class="lead" data-aos="fade-up">
+                    wat voor soort schetsen er zijn binnen de verschillende fases in het ontwerpproces en wat je nou precies hebt aan schetsen tijdens het ontwerp proces. Wij zijn namelijk van mening dat dit nog steeds te weinig wordt gedaan en hierdoor belangrijke inzichten in het ontwerpproces verloren kunnen gaan. 
+                </p>
+            </div> <!-- end  s-services--leftcol -->
+
+            <div class="column large-6">
+                <p class="lead" data-aos="fade-up">
+                    Doormiddel van onderzoek te doen zijn we erachter gekomen dat je het schetsen in 3 verschillende categorieën kan opsplitsen. 
+                    Deze manieren van schetsen worden beschreven in het boek ”Engineering the mind’s eye” van Ferguson (1992). 
+                    Hij beschrijft hierin drie manieren van schetsen, namelijk de Thinking sketch, Talking sketch en de Prescriptive sketch. 
+                    Wij zullen vooral de: Prescriptive Sketch & Thinking sketch uitlichten op deze pagina, omdat deze het meest interessant is voor de CMD’ers onder ons.
+                </p>
+                <p class="lead" data-aos="fade-up">
+                WAAROM IS SCHETSEN BELANGRIJK.
+                Schetsen is belangrijk omdat dit iets trigger in je hersenen waardoor je jouw gedachten beter kan uiten. Het is bewezen dat ideeën die we in ons hoofd hebben beter kunnen uiten doormiddel van schetsen. Doordat je iets op papier of op de computer schetst kan je het ten eerste niet meer vergeten en word je creatieve brein automatisch getriggerd om steeds meer ideeën toe te voegen en er beter over na te denken. Doordat je iets schetst kan je ernaar kijken en daardoor zal je er meer over nadenken dan dat je er alleen maar over na kan denken. Ook is het handig dat je het aan bijvoorbeeld je opdrachtgever/collega kan laten zien waardoor hun je uitgetekende idee aan kunnen vullen of feedback erop kunnen geven.
+                </p>
+            </div>
+
+        </div> <!-- s-services__content -->
+
+    </section> <!-- end s-services -->
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="s-about__section s-about__section--profile">
+
+            <div class="right-vert-line"></div>
+
+            <div class="row">
+                <div class="column large-6 medium-8 tab-full">
+
+                    <div class="section-intro" data-num="01" data-aos="fade-up">
+                        <h3 class="subhead">Thinking Sketch</h3>
+                        <h1 class="display-1">Doodle</h1>
+                    </div>
+
+                    <div class="profile-pic" data-aos="fade-up">
+                        <img src="images/profile-pic.jpg" 
+                             srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                    </div>
+
+                    <h3 data-aos="fade-up">Profile</h3>
+
+                    <p data-aos="fade-up">
+                    In consectetuer turpis ut velit. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. 
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis 
+                    mi consectetuer lacinia. Fusce neque. Curabitur nisi. Suspendisse nisl elit, rhoncus eget, elementum ac, 
+                    condimentum eget, diam. Phasellus magna. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, 
+                    ipsum. Maecenas egestas arcu quis ligula mattis placerat. Suspendisse pulvinar, augue ac venenatis condimentum, 
+                    sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+                    </p>
+
+                </div>
+            </div>
+
+        </div> <!-- end s-about__section--profile -->
+
+        <!-- about
+        ================================================== -->
+        <section id="about" class="s-about target-section">
+
+        <div class="s-about__section s-about__section--profile">
+
+            <div class="right-vert-line"></div>
+
+            <div class="row">
+                <div class="column large-6 medium-8 tab-full">
+
+                    <div class="section-intro" data-num="01" data-aos="fade-up">
+                        <h3 class="subhead">About Me</h3>
+                        <h1 class="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                    </div>
+
+                    <div class="profile-pic" data-aos="fade-up">
+                        <img src="images/profile-pic.jpg" 
+                             srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                    </div>
+
+                    <h3 data-aos="fade-up">Profile</h3>
+
+                    <p data-aos="fade-up">
+                    In consectetuer turpis ut velit. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. 
+                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis 
+                    mi consectetuer lacinia. Fusce neque. Curabitur nisi. Suspendisse nisl elit, rhoncus eget, elementum ac, 
+                    condimentum eget, diam. Phasellus magna. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, 
+                    ipsum. Maecenas egestas arcu quis ligula mattis placerat. Suspendisse pulvinar, augue ac venenatis condimentum, 
+                    sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+                    </p>
+
+                </div>
+            </div>
+            
+            <!-- about
+            ================================================== -->
+            <section id="about" class="s-about target-section">
+
+            <div class="s-about__section s-about__section--profile">
+        
+                <div class="right-vert-line"></div>
+        
+                    <div class="row">
+                        <div class="column large-6 medium-8 tab-full">
+        
+                            <div class="section-intro" data-num="01" data-aos="fade-up">
+                                <h3 class="subhead">About Me</h3>
+                                <h1 class="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                            </div>
+        
+                            <div class="profile-pic" data-aos="fade-up">
+                                <img src="images/profile-pic.jpg" 
+                                     srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                            </div>
+        
+                            <h3 data-aos="fade-up">Profile</h3>
+        
+                            <p data-aos="fade-up">
+                            In consectetuer turpis ut velit. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. 
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis 
+                            mi consectetuer lacinia. Fusce neque. Curabitur nisi. Suspendisse nisl elit, rhoncus eget, elementum ac, 
+                            condimentum eget, diam. Phasellus magna. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, 
+                            ipsum. Maecenas egestas arcu quis ligula mattis placerat. Suspendisse pulvinar, augue ac venenatis condimentum, 
+                            sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+                            </p>
+        
+                        </div>
+                    </div>
+        
+                </div> <!-- end s-about__section--profile -->
+
+        </div> <!-- end s-about__section--profile -->
+
+        <!-- about
+        ================================================== -->
+
+        <section id="about" class="s-about target-section">
+
+            <div class="s-about__section s-about__section--profile">
+    
+                <div class="right-vert-line"></div>
+    
+                <div class="row">
+                    <div class="column large-6 medium-8 tab-full">
+    
+                        <div class="section-intro" data-num="01" data-aos="fade-up">
+                            <h3 class="subhead">About Me</h3>
+                            <h1 class="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                        </div>
+    
+                        <div class="profile-pic" data-aos="fade-up">
+                            <img src="images/profile-pic.jpg" 
+                                 srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                        </div>
+    
+                        <h3 data-aos="fade-up">Profile</h3>
+    
+                        <p data-aos="fade-up">
+                        In consectetuer turpis ut velit. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. 
+                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis 
+                        mi consectetuer lacinia. Fusce neque. Curabitur nisi. Suspendisse nisl elit, rhoncus eget, elementum ac, 
+                        condimentum eget, diam. Phasellus magna. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, 
+                        ipsum. Maecenas egestas arcu quis ligula mattis placerat. Suspendisse pulvinar, augue ac venenatis condimentum, 
+                        sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+                        </p>
+    
+                    </div>
+                </div>
+    
+            </div> <!-- end s-about__section--profile -->
+
+            <!-- about
+        ================================================== -->
+
+            <section id="about" class="s-about target-section">
+
+                <div class="s-about__section s-about__section--profile">
+        
+                    <div class="right-vert-line"></div>
+        
+                    <div class="row">
+                        <div class="column large-6 medium-8 tab-full">
+        
+                            <div class="section-intro" data-num="01" data-aos="fade-up">
+                                <h3 class="subhead">About Me</h3>
+                                <h1 class="display-1">I'm the kind of person who isn't afraid of challenges.</h1>
+                            </div>
+        
+                            <div class="profile-pic" data-aos="fade-up">
+                                <img src="images/profile-pic.jpg" 
+                                     srcset="images/profile-pic.jpg 1x, images/profile-pic@2x.jpg 2x" alt="">
+                            </div>
+        
+                            <h3 data-aos="fade-up">Profile</h3>
+        
+                            <p data-aos="fade-up">
+                            In consectetuer turpis ut velit. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. 
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis 
+                            mi consectetuer lacinia. Fusce neque. Curabitur nisi. Suspendisse nisl elit, rhoncus eget, elementum ac, 
+                            condimentum eget, diam. Phasellus magna. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, 
+                            ipsum. Maecenas egestas arcu quis ligula mattis placerat. Suspendisse pulvinar, augue ac venenatis condimentum, 
+                            sem libero volutpat nibh, nec pellentesque velit pede quis nunc.
+                            </p>
+        
+                        </div>
+                    </div>
+        
+                </div> <!-- end s-about__section--profile -->
+
+   </section> <!-- end portfolio -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
-
-</html>
